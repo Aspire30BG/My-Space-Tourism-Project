@@ -1,0 +1,580 @@
+* {
+    box-sizing: border-box;
+    }
+    body {
+        background-image: url(https://github.com/Aspire30BG/space-tourism-website-main/blob/main/starter-code/assets/crew/background-crew-mobile.jpg?raw=true);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        color: #c2bebe;
+        }
+        .page {
+            width: 100%;
+            height: 200%;
+            color: rgb(181, 181, 176);
+        }
+        a {
+            text-decoration: none;
+            color: rgb(181, 181, 176); 
+            }
+        a:link {
+            text-decoration: none;
+            color: rgb(181, 181, 176);
+            }
+        a:visited {
+            text-decoration: none;
+            color: rgb(181, 181, 176);
+            }
+        a:hover {
+            text-decoration: none;
+            color: rgb(181, 181, 176);
+            }
+        a:active {
+            text-decoration: none;
+            color: rgb(181, 181, 176);
+            }
+    @media only screen and (max-width: 767px) {
+        .top {
+            display: flex;
+            flex-flow: row wrap;
+            width: 100%;
+            height: 50%; 
+            margin-top: 2%;  
+            margin-bottom: 7%;
+            padding: 5%;
+            gap: 32%;
+        }
+        .logo {
+            width: 35%;
+            height: 35%;
+        }
+        .menu-icon {
+            width: 32%;
+            float: right;
+            margin-top: 1.5%;
+        }
+        .navigations {
+            display: none;
+        }
+        .bottom {
+            text-align: center;
+            display: flex;
+            flex-flow: column wrap;
+            margin-top: -4%;
+        }
+        .meet-crew {
+            display: flex;
+            flex-flow: row wrap;
+            gap: 2%;
+            font-family: Barlow Condensed;
+            font-size: 16px;
+            text-transform: uppercase;
+            font-style: normal;
+            font-weight: 400;
+            align-items: center;
+            justify-content: center;
+            line-height: normal;
+            letter-spacing: 0.5px;
+            margin-bottom: 15%
+        }
+        .number {
+            margin-right: 1%;
+            font-style: normal;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: 0.7px;
+            color: #363846;;
+        }
+        .meet {
+            color: #eeeded;
+        }
+        .image {
+            width: 35%;
+            height: 35%;
+            float: none;
+            margin: 0 32.5%; 
+            margin-top: -4%;  
+        }
+        .border {
+            width: 70%;
+            height: 2px;
+            flex-shrink: 0; 
+            background: #3d404e;
+            margin: 0% 15%;   
+        }
+        .dots {
+            display: flex;
+            flex-direction: row;
+            gap: 4%;
+            justify-content: center;
+            align-items: center;
+            margin-top: 7%;
+            stroke-width: 1px;
+            stroke: #FFF;
+            font-family: 'Bellefair';
+        }
+        .dot-1 {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            opacity: 0.174363;
+        }
+        .dot-2 {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            opacity: 0.174363;
+        }
+        .dot-3 {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            opacity: 0.174363;
+        }
+        .dot-4 {
+            background-color: #FFF;
+            border-color: #FFF;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+        }
+        .engineer {
+            font-family: Bellefair;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            text-transform: uppercase;
+        }
+        .name {
+            color: #eeeded;        
+            text-align: center;
+            font-family: Bellefair;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            text-transform: uppercase;
+            margin-top: -1%;
+        }
+        .p1{
+            margin: 0% 10%;
+            margin-top: -4%;
+            padding: 6% 0%;
+            color: #D0D6F9;
+            text-align: center;
+            font-family: Barlow;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 25px;
+        }
+    }
+    @media only screen and (min-width: 768px) {
+        body {
+            background-image: url(https://github.com/Aspire30BG/space-tourism-website-main/blob/main/starter-code/assets/crew/background-crew-tablet.jpg?raw=true);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: #c2bebe;
+            }
+        .top {
+            display: flex;
+            flex-flow: row wrap;
+            width: 100%;
+            height: 50%; 
+            margin-top: 2%;  
+            margin-bottom: 7%;
+            padding-left: 5%;
+            padding-top: 5%;
+            gap: 9%;
+        }
+        .logo {
+            width: 28%;
+            height: 28%;
+            margin-top: -4%;
+        }
+        .menu-icon {
+            display: none;
+        }
+        .navigations {
+            display: flex;
+            flex-direction: row;
+            width: 63%;
+            height: 80px;
+            flex-shrink: 0;
+            align-items: center;
+            justify-content: center;
+            float: right;
+            margin-top: -8%;
+            font-family: Barlow Condensed;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            text-transform: uppercase;
+            background: rgba(255, 255, 255, 0.04);
+            backdrop-filter: blur(40.774227142333984px);
+        }
+        .home {
+            margin-right: 7%;
+        }
+        .destination {
+            margin-right: 7%;
+        }
+        .crew {
+            margin-right: 7%;
+            border-bottom: 3px solid #FFF;
+            padding: 25px 0px;
+        }
+        .technology {
+            margin-right: 7%;
+        }
+        .zero-00 {
+            display: none;
+        }
+        .one-01 {
+            display: none;
+        }
+        .two-02 {
+            display: none;
+        }
+        .three-03 {
+            display: none;
+        }
+        .bottom {
+            display: flex;
+            flex-direction: column-reverse;
+            text-align: center;
+        }
+        .meet-crew {
+            display: flex;
+            flex-flow: row wrap;
+            gap: 2%;
+            font-family: Barlow Condensed;
+            font-size: 20px;
+            text-transform: uppercase;
+            font-style: normal;
+            font-weight: 400;
+            align-items: flex-start;
+            justify-content: flex-start;
+            line-height: normal;
+            letter-spacing: 0.5px;
+            margin-bottom: 7%;
+            margin-left: 7%;
+        }
+        .number {
+            margin-right: 1%;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: 0.7px;
+            color: #363846;
+        }
+        .meet {
+            color: #eeeded;
+        }
+        .image {
+            width: 35%;
+            height: 35%;
+            float: none;
+            margin: 0 32.5%; 
+            margin-top: -4%;  
+        }
+        .border {
+            display: none;
+        }
+        .dots {
+            display: flex;
+            flex-direction: row;
+            gap: 2%;
+            justify-content: center;
+            align-items: center;
+            margin-top: 1%;
+            stroke-width: 1px;
+            stroke: #FFF;
+            font-family: 'Bellefair';
+            margin-bottom: 10%;
+        }
+        .dot-1 {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            opacity: 0.174363;
+        }
+        .dot-2 {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            opacity: 0.174363;
+        }
+        .dot-3 {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            opacity: 0.174363;
+        }
+        .dot-4 {
+            background-color: #FFF;
+            border-color: #FFF;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+        }
+        .engineer {
+            font-family: Bellefair;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            text-transform: uppercase;
+        }
+        .name {
+            color: #eeeded;        
+            text-align: center;
+            font-family: Bellefair;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            text-transform: uppercase;
+            margin-top: -1%;
+        }
+        .p1{
+            margin: 0% 15%;
+            margin-top: -4%;
+            padding: 3% 0%;
+            color: #D0D6F9;
+            text-align: center;
+            font-family: Barlow;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 25px;
+        }
+    }
+    @media only screen and (min-width: 992px) {
+    body {
+        background-image: url(https://github.com/Aspire30BG/space-tourism-website-main/blob/main/starter-code/assets/crew/background-crew-desktop.jpg?raw=true);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        font-family: Arial, 'Helvetica', sans-serif, Epilogue;
+        }
+        .top {
+            display: flex;
+            flex-flow: row wrap;
+            width: 100%;
+            height: 50%; 
+            margin-top: 2%;  
+            margin-bottom: 7%;
+            padding-left: 5%;
+            padding-top: 5%;
+            gap: 15%;
+        }
+        .logo {
+            display: inline-flex;
+            width: 24%;
+            height: 24%;
+            margin-top: -4%;
+        }
+        .line {
+            display: flex;
+            position: static;
+            width: 150%;
+            height: 2px;
+            margin-left: 20%;
+            margin-top: 6%;
+            flex-shrink: 0;
+            opacity: 0.7515;
+            background: #3d404e;
+        }
+        .menu-icon {
+            display: none;
+        }
+        .navigations {
+            display: flex;
+            flex-direction: row;
+            width: 61%;
+            height: 70px;
+            flex-shrink: 0;
+            align-items: center;
+            justify-content: center;
+            float: right;
+            margin-top: -5%;
+            font-family: Barlow Condensed;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            text-transform: uppercase;
+            background: rgba(255, 255, 255, 0.04);
+            backdrop-filter: blur(40.774227142333984px);
+        }
+        .zero-00 {
+            display: inline-flex;
+            margin-right: 5px;
+            padding-left: 25px;
+        }
+        .one-01 {
+            display: inline-flex;
+            margin-right: 5px;
+        }
+        .two-02 {
+            display: inline-flex;
+            margin-right: 5px;
+        }
+        .three-03 {
+            display: inline-flex;
+            margin-right: 5px;
+        }
+        .pick-destination {
+            display: flex;
+            flex-flow: row wrap;
+            gap: 2%;
+            font-family: Barlow Condensed;
+            font-size: 20px;
+            text-transform: uppercase;
+            font-style: normal;
+            font-weight: 400;
+            align-items: flex-start;
+            justify-content: flex-start;
+            line-height: normal;
+            letter-spacing: 0.5px;
+            margin-bottom: 7%;
+            margin-left: 7%
+        }
+        .number {
+            margin-right: 1%;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: 0.7px;
+            color: #363846;
+        }
+        .pick {
+            color: #eeeded;
+        }
+        
+        .meet-crew {
+            display: flex;
+            flex-flow: row wrap;
+            gap: 2%;
+            font-family: Barlow Condensed;
+            font-size: 20px;
+            text-transform: uppercase;
+            font-style: normal;
+            font-weight: 400;
+            align-items: flex-start;
+            justify-content: flex-start;
+            line-height: normal;
+            letter-spacing: 0.5px;
+            margin-bottom: 7%;
+            margin-left: 7%;
+        }
+        .number {
+            margin-right: 1%;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: 0.7px;
+            color: #363846;;
+        }
+        .meet {
+            color: #eeeded;
+        }
+        .bottom {
+            display: flex;
+            flex-direction: row-reverse;
+            text-align: center;
+            margin-bottom: auto;
+        }
+        .image {
+            width: 33%;
+            height: 33%;
+            float: none;
+            margin: 0% 7%; 
+            margin-top: -9%;
+        }
+        .left-side {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        .border {
+            display: none;
+        }
+        .dots {
+            display: flex;
+            flex-direction: row;
+            gap: 2%;
+            justify-content: flex-start;
+            align-items: flex-start;
+            margin-top: 1%;
+            stroke-width: 1px;
+            stroke: #FFF;
+            font-family: 'Bellefair';
+            margin-bottom: 10%;
+            margin-left: 15%;   
+        }
+        .dot-1 {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            opacity: 0.174363;
+        }
+        .dot-2 {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            opacity: 0.174363;
+        }
+        .dot-3 {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            opacity: 0.174363;
+        }
+        .dot-4 {
+            background-color: #FFF;
+            border-color: #FFF;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+        }
+        .engineer {
+            font-family: Bellefair;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            text-transform: uppercase;
+            text-align: left;
+            margin-left: 15%;
+        }
+        .name {
+            color: #eeeded;        
+            text-align: left;
+            font-family: Bellefair;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            text-transform: uppercase;
+            margin-top: -2%;
+            margin-left: 15%;
+        }
+        .p1{
+            margin: 0% 15%;
+            margin-top: -8%;
+            padding: 3% 0%;
+            color: #D0D6F9;
+            text-align: left;
+            font-family: Barlow;
+            font-size: 16.5px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 25px;
+            margin-bottom: 7%;
+        }
+    }
