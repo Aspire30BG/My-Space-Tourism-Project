@@ -3,7 +3,7 @@
     }
     @media only screen and (max-width: 767px) {
       body {
-        background-image: url(https://github.com/hamzeey/space/blob/main/src/Asssets/background-home-mobile.jpg?raw=true);
+        background-image: url(assets/home/background-home-mobile.jpg);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;

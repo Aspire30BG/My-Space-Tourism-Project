@@ -1,13 +1,6 @@
 * {
   box-sizing: border-box;
   }
-  body {
-    background-image: url(https://github.com/hamzeey/space/blob/main/src/Asssets/background-destination-mobile.jpg?raw=true);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: #c2bebe;
-    }
     .page {
         width: 100%;
         height: 200%;
@@ -34,6 +27,13 @@
         color: rgb(181, 181, 176);
         }
   @media only screen and (max-width: 767px) {
+    body {
+      background-image: url(assets/destination/background-destination-mobile.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      color: #c2bebe;
+      }
       .top {
           display: flex;
           flex-flow: row wrap;
@@ -184,7 +184,7 @@
 }
 @media only screen and (min-width: 768px) {
   body {
-    background-image: url(https://github.com/Aspire30BG/space-tourism-website-main/blob/main/starter-code/assets/destination/background-destination-tablet.jpg?raw=true);
+    background-image: url(assets/destination/background-destination-tablet.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -392,7 +392,7 @@
 }
 @media only screen and (min-width: 992px) {
 body {
-    background-image: url(https://github.com/Aspire30BG/space-tourism-website-main/blob/main/starter-code/assets/destination/background-destination-desktop.jpg?raw=true);
+    background-image: url(assets/destination/background-destination-desktop.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

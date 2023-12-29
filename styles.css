@@ -28,7 +28,7 @@
     }
     @media only screen and (max-width: 767px) {
     body {
-        background-image: url(https://github.com/Aspire30BG/My-Space-Tourism-Project/blob/main/assets/home/background-home-mobile.jpg?raw=true);
+        background-image: url(assets/home/background-home-mobile.jpg);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -109,6 +109,7 @@
         width: 150px;
         border-radius: 100%;
         margin-top: 10%;
+        margin-bottom: 20%;
     }
     .explore {
         text-align: center;
@@ -117,7 +118,7 @@
 }
     @media only screen and (min-width: 768px) {
         body {
-            background-image: url(https://github.com/Aspire30BG/space-tourism-website-main/blob/main/starter-code/assets/home/background-home-tablet.jpg?raw=true);
+            background-image: url(assets/home/background-home-tablet.jpg);
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -249,7 +250,7 @@
     }
     @media only screen and (min-width: 992px) {
         body {
-            background-image: url(https://github.com/Aspire30BG/space-tourism-website-main/blob/main/starter-code/assets/home/background-home-desktop.jpg?raw=true);
+            background-image: url(assets/home/background-home-desktop.jpg);
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
